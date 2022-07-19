@@ -20,7 +20,7 @@
         }
 
         &__official {
-            font-size: 10px;
+            display: none;
 
             span {
                 font-size: 16px;
@@ -41,10 +41,16 @@
 
         &__header {
             font-size: 36px;
+            text-align: center;
         }
 
         &__subheader {
-            font-size: 18px;
+            display: none;
+        }
+
+        &__icons {
+            width: 300px;
+            align-items: center;
         }
     }
 
