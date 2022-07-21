@@ -184,4 +184,12 @@
             }
         }
     }
+
+    .modal {
+        width: 370px;
+
+        &__close {
+            right: 0;
+        }
+    }
 }
